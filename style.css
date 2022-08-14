@@ -1,0 +1,218 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#page__header {
+	background-color: #7a9b96;
+	height: 80px;
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+#main__heading {
+	color: #f0edec;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+}
+main {
+	max-width: 90%;
+}
+
+#top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 90%;
+	margin: 10px auto;
+}
+
+#bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 90%;
+	margin: 10px auto;
+}
+
+.container {
+	border: 2px solid #000;
+	width: 50%;
+	height: 300px;
+	margin: 30px;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.container__title-top {
+	position: relative;
+	top: -130px;
+	left: 40%;
+	color: #9d5035;
+}
+
+.container__text-style {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* .container__title-top{
+    position: relative;
+    top: -130px;
+    left: 30%;
+    color: #9D5035;
+} */
+.container__title-bottom--left {
+	position: relative;
+	top: 0px;
+	left: 50%;
+	color: #9d5035;
+}
+
+.container__title-bottom--right {
+	position: relative;
+	top: 0px;
+	left: 50%;
+	color: #9d5035;
+}
+
+/* ////////////////////////////////// */
+
+/* color cards section */
+.container__color {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.color {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #000;
+	border-radius: 10px;
+	height: 200px;
+	width: 200px;
+	margin: 10px;
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.color--F0EDEC {
+	background-color: #f0edec;
+}
+
+.color--9E6D47 {
+	background-color: #9e6d47;
+}
+
+.color--7A9B96 {
+	background-color: #7a9b96;
+}
+
+.color--9D5035 {
+	background-color: #9d5035;
+}
+
+.color--2E2B2F {
+	background-color: #2e2b2f;
+}
+
+/* //////////////////////////////// */
+
+/* Text style section */
+.container__text-style p {
+	margin-bottom: 5px;
+	border-bottom: 1px solid #000;
+	font-weight: 600;
+}
+.container__text-style--left {
+	margin-right: 50px;
+}
+
+.container__text-style--right p {
+	margin-top: 30px;
+}
+/* ///////////////////////////////////// */
+
+/* Font Section */
+.container__text-head-bottom {
+	margin-bottom: 5px;
+	border-bottom: 1px solid #000;
+	display: inline-block;
+	font-weight: 600;
+}
+
+.container__text-body-bottom {
+	margin-bottom: 20px;
+}
+/* ////////////////////////////////////////// */
+
+/* Button Section */
+
+.container__button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.container__btn {
+	border: 0;
+	border-radius: 10px;
+	padding: 10px 40px;
+	font-size: 16px;
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+	margin: 20px;
+}
+
+.container__btn--primary {
+	background-color: #2e2b2f;
+	color: #fff;
+}
+.container__btn--primary:hover {
+	background-color: #565357;
+	padding: 11px 41px;
+	transition: padding 0.1s;
+}
+
+.container__btn--secondary {
+	background-color: #7a9b96;
+	color: #fff;
+}
+.container__btn--secondary:hover {
+	background-color: #9cc0bb;
+	padding: 11px 41px;
+	transition: padding 0.1s;
+}
+
+.container__btn--ghost {
+	background-color: transparent;
+	color: #9d5035;
+	border: 1px solid #000;
+}
+.container__btn--ghost:hover {
+	background-color: #9d5035;
+	color: #fff;
+	border: 0;
+	padding: 11px 41px;
+	transition: padding 0.1s;
+}
+
+/* /////////////////////////////////// */
+/* footer */
+footer {
+	height: 150px;
+	text-align: center;
+	width: 100%;
+	background-color: #2e2b2f;
+	color: #f0edec;
+	font-size: 12px;
+	font-style: italic;
+}
